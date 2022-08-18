@@ -269,7 +269,6 @@
       top: 5%; 
       right: 10%;
       opacity: 0;
-      transition: 1.5s !important;
       visibility: hidden;
    }
    .gallery span._active .close {
@@ -286,6 +285,7 @@
    }
    .close:hover:after, .close:hover::before {
       background: white;
+      transition: 1.5s !important;
    }
    .close::before {
       transform: rotate(45deg);
