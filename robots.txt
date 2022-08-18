@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow:
+Host: https://teplovdomekr.com.ua/
+Sitemap: https://teplovdomekr.com.ua/sitemap.xml
