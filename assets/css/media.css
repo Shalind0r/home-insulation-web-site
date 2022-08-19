@@ -516,7 +516,14 @@
 }
 @media (max-width: 420px) {
    .hidden {
-      display: none;
+      position: absolute;
+      opacity: 0;
+      transition: 2s;
+   }
+   .unhidden {
+      position: static;
+      transition: .7s;
+      opacity: 1;
    }
    .more{
       display: inline-block;

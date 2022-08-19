@@ -1,3 +1,4 @@
+//modal
 const CLASS_LIST = {
    MODAL: 'img',
    MODAL_ACTIVE: '_active',
@@ -43,6 +44,7 @@ for (var i = 0; i < more.length; i++) {
     for (var i = 0; i < showPerClick; i++) {
       if (!hidden[i]) return this.outerHTML = "";
 
+      hidden[i].classList.add('unhidden');
       hidden[i].classList.remove('hidden');
     }
   });

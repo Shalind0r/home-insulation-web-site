@@ -269,12 +269,12 @@
       top: 5%; 
       right: 10%;
       opacity: 0;
-      transition: 1.5s !important;
       visibility: hidden;
    }
    .gallery span._active .close {
       opacity: 1;
       visibility: visible;
+      transition: 1.5s !important;
    }
    .close:before, .close:after {
       content: ""; 
@@ -561,10 +561,6 @@
       border-radius: 5px;
       padding: 4% 0 4% 5%;
    }
-
-   input[type="text"] {}
-
-   input[type="tel"] {}
 
    input[type="submit"] {
       background: #415DBA;
