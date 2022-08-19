@@ -286,6 +286,7 @@
    }
    .close:hover:after, .close:hover::before {
       background: white;
+      transition: 1.5s !important;
    }
    .close::before {
       transform: rotate(45deg);
