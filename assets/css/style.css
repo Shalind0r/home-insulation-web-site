@@ -617,36 +617,18 @@
       justify-content: space-between;
       margin: 4.5% auto 3%;
       width: 60%;
+      align-items: center;
    }
 
-   footer div {
-      flex-basis: 27%;
-   }
 
    .footer-left p {
       font-size: 87%;
       margin: 0;
    }
 
-   .footer-center p {
-      font-size: 89%;
-   }
-
-   .footer-right {
-      text-align: center;
-   }
-
    .footer-right p {
-      margin: 0;
+      font-size: 29%;
    }
-
-   .footer-right img {
-      float: right;
-      position: relative;
-      top: -25%;
-      width: 25%;
-   }
-
    .footer-mail {
       font-size: 70%;
    }
