@@ -627,7 +627,7 @@
    }
 
    .footer-right p {
-      font-size: 29%;
+      font-size: calc(12px + 8 * ((100vw - 350px) / 1280)) !important;
    }
    .footer-mail {
       font-size: 70%;
