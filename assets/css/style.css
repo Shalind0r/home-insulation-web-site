@@ -52,7 +52,19 @@
       right: 13%;
       position: absolute;
       width: 12.4%;
+      animation: up-down 3.2s infinite linear;
    }
+   @keyframes up-down {
+      0% {
+       top: -500px;
+      }
+      50% {
+       top: 0;
+      }
+      100% {
+         top: -500px;
+      }
+    }
 
    header img {
       margin: 11.5% 0 0 0;
